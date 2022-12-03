@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import network from './images/portfolio/network.png';
 
 const Portfolio = () => {
