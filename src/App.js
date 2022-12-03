@@ -5,12 +5,12 @@ import Portfolio from './components/PortfolioPage';
 
 function App() {
     return (
-        <div className={'bg-slate-900 min-h-screen pb-4'}>
-            <div className={'flex flex-wrap'}>
-                <div>
+        <div className={'bg-zinc-900 min-h-screen pb-4 lg:px-16'}>
+            <div className={'flex flex-wrap gap-2 lg:grid lg:grid-cols-8'}>
+                <div className={'lg:col-span-3'}>
                     <Home />
                 </div>
-                <div className={'w-full'}>
+                <div className={'w-full lg:col-span-5'}>
                     <Navbar />
                 </div>
             </div>

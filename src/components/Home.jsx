@@ -6,13 +6,13 @@ const Home = () => {
     return (
         <div name="home" className={'py-4 w-full'}>
             <div className="container mx-auto px-10 py-4 xl:px-10">
-                <h1 className={'text-3xl font-semibold text-slate-100 text-center'}>M. Fahrur Rizal</h1>
+                <h1 className={'text-3xl font-bold text-zinc-100 text-center lg:text-left'}>M. Fahrur Rizal</h1>
                 <div className={'mt-8 flex items-center gap-4'}>
-                    <div className={'rounded-full w-32 h-32 overflow-hidden mr-10'}>
+                    <div className={'rounded-full w-32 h-32 overflow-hidden mr-10 flex-shrink-0'}>
                         <img src={foto} alt="foto-profil" className={'w-full object-cover'} />
                     </div>
                     {/* Social Media */}
-                    <div className="text-slate-100 flex items-center gap-4">
+                    <div className="text-zinc-100 flex items-center gap-4">
                         <Link
                             to={''}
                             className={
@@ -37,8 +37,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className={'px-10 text-slate-300'}>
-                <h1 className="font-semibold text-base text-slate-400">Pengen jadi Developer</h1>
+            <div className={'px-10 text-zinc-300'}>
+                <h1 className="font-semibold text-base text-zinc-400">Pengen jadi Developer</h1>
                 <p>
                     Lulusan Teknik Informatika Universitas Nusantara PGRI Kediri. Konten kreator game di{' '}
                     <a href="#" className={'text-blue-500 hover:underline'}>
@@ -48,9 +48,7 @@ const Home = () => {
                 </p>
                 <div className={'mt-8'}>
                     <button
-                        className={
-                            'flex items-center gap-2 justify-center bg-slate-700 py-2 px-4 rounded-full w-full hover:bg-slate-800 duration-300'
-                        }>
+                        className={'flex items-center gap-2 justify-center bg-zinc-700 py-2 px-4 rounded-full w-full hover:bg-zinc-800 duration-300'}>
                         Sapa saya! 👋
                     </button>
                 </div>
