@@ -1,4 +1,5 @@
 import network from './images/portfolio/network.png';
+import ecommerce from './images/portfolio/ecommerce.png';
 
 const Portfolio = () => {
     return (
@@ -10,11 +11,11 @@ const Portfolio = () => {
                 className={'border-b border-b-zinc-500 block my-3'}>
                 <div className={'group mb-3 py-4 hover:bg-zinc-800 duration-300 rounded-md'}>
                     <div className={'flex gap-3 px-4 flex-col lg:flex-row'}>
-                        <div className={'lg:w-44 lg:h-32 w-full flex-shrink-0 overflow-hidden rounded-md'}>
+                        <div className={'lg:w-64 w-full flex-shrink-0 overflow-hidden rounded-md'}>
                             <img
                                 src={network}
                                 alt="network"
-                                className={'w-full h-full rounded-md object-cover lg:object-left lg:group-hover:scale-105 duration-300'}
+                                className={'w-full h-full rounded-md object-cover lg:group-hover:scale-105 duration-300'}
                             />
                         </div>
                         <div>
@@ -36,11 +37,11 @@ const Portfolio = () => {
                 className={'border-b border-b-zinc-500 block my-3'}>
                 <div className={'group mb-3 py-4 hover:bg-zinc-800 duration-300 rounded-md'}>
                     <div className={'flex gap-3 px-4 flex-col lg:flex-row'}>
-                        <div className={'lg:w-44 lg:h-32 w-full flex-shrink-0 overflow-hidden rounded-md'}>
+                        <div className={'lg:w-64 w-full flex-shrink-0 overflow-hidden rounded-md'}>
                             <img
-                                src={network}
+                                src={ecommerce}
                                 alt="network"
-                                className={'w-full h-full rounded-md object-cover object-left lg:group-hover:scale-105 duration-300'}
+                                className={'w-full h-full rounded-md object-cover lg:group-hover:scale-105 duration-300'}
                             />
                         </div>
                         <div>
