@@ -49,7 +49,7 @@ const About = () => {
                 <div className={'text-zinc-300'}>
                     <h1 className="font-bold text-base text-zinc-400">Pengen jadi Developer</h1>
                     <p>
-                        Lulusan Teknik Informatika Universitas Nusantara PGRI Kediri. Konten kreator game di{' '}
+                        Lulusan Teknik Informatika Universitas Nusantara PGRI Kediri. Pengen juga jadi konten kreator game di{' '}
                         <a href="https://www.tiktok.com/@joule0507" target={'_blank'} className={'text-blue-500 hover:underline'} rel="noreferrer">
                             TikTok
                         </a>
